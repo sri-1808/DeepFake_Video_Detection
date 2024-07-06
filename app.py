@@ -93,8 +93,7 @@ if uploaded_file is not None:
     with open(file_path, 'wb') as f:
         f.write(uploaded_file.getbuffer())
     
-    # Display the video
-    st.video(file_path)
+  
     
     # Placeholder for the result
     result_placeholder = st.empty()
@@ -106,3 +105,6 @@ if uploaded_file is not None:
     
     # Display the prediction result
     result_placeholder.text(f'Predicted class: {predicted_class}')
+
+      # Display the video
+    st.video(file_path)
