@@ -1,0 +1,8 @@
+Flask==2.1.1
+Werkzeug==2.1.1
+opencv-python-headless==4.5.5.64
+numpy==1.23.5
+tensorflow==2.14.0
+imageio==2.31.0
+Pillow
+streamlit
